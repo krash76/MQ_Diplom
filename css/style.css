@@ -170,7 +170,7 @@ li:first-child {
   padding-left: 20px;
 }
  
-.article-image {
+.article-image-footballer {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -295,21 +295,18 @@ li:first-child {
   margin-left: auto;
   width: 100%;
   position: relative;
-  padding-top: 20px;
-  
+  padding-top: 5px;
 }
   
-.article-container-players::after {
-  content: "";
+.article-image-basketballer {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url("../img/basketballer_302.png");
   background-size: auto;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 80px;
+  margin-top: 75px;
+  position: absolute;
 }
+
 
 
 /*end_mobile*/
@@ -327,7 +324,7 @@ li:first-child {
     height: 77px;
     border-radius: 38px;
   }
-  
+
   .link {
     font-size: 14px;
     letter-spacing: 1px;
@@ -389,7 +386,7 @@ li:first-child {
     padding-top: 65px;
   }
 
-  .article-image {
+  .article-image-footballer {
     justify-content: flex-end;
     max-width: 340px;
     margin-top: 30px;
@@ -457,6 +454,13 @@ li:first-child {
   .last-item-text {
     font-size: 16px;
   }
+
+ /* .article-image-basketballer {
+    justify-content: flex-end;
+    max-width: 340px;
+    margin-top: 30px;
+  }*/
+
 }
 
 
@@ -507,7 +511,7 @@ li:first-child {
     margin-left: 50px;
   }
 
-  .article-image {
+  .article-image-footballer {
     justify-content: flex-end;
     max-width: 50%;
     margin-top: 27px;
