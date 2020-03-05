@@ -309,17 +309,15 @@ li:first-child {
 
 /*direction*/
 .article-container.directions {
-  padding-top: 0;
-}
-
-.article-image {
   display: flex;
-  justify-content: center;
-}
-  .be-active {
-  max-width: 100%;
-  
-  
+  flex-wrap: wrap;
+  /*position: relative;*/
+  flex-direction: column;
+  align-items:flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-top: 0;
 }
 
 .direction-number-box {
@@ -332,9 +330,10 @@ li:first-child {
   background-color: #5e42b0;
   position: absolute;
   margin-left: 20px;
-  margin-top: 295px;
-
+  margin-top: -85px;
 }
+
+ /*.be-active*/ /*как изображение размером 620х702 сделать уменьшающимся до 320х351?*/
 
   .direction-number {
   font-size: 14px;
@@ -354,6 +353,23 @@ li:first-child {
   background-color:#ffffff;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.article-content.directions {
+  padding-top: 25px;
+}
+
+.article-title.direction {
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #e7e7e7;
+}
+
+.item-text.direction {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*end_mobile*/
